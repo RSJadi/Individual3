@@ -1,0 +1,20 @@
+{
+    "instrutores":[
+        {"id": 100, "nome": "Matheus", "salário": 2300 , "cargo": "prof_jiu-jitsu"},
+        {"id": 200, "nome": "Esther", "salário": 1200, "cargo": "prof_yoga"},
+        {"id": 300, "nome":"Vanessa", "salário":2500, "cargo": "prof_pilates"},
+        {"id": 400, "nome":"Guilherme", "salário": 3000, "cargo": "prof_crossfit"}
+    ],
+    "clientes": [
+        {"id": 500, "nome": "Ângelo", "cpf": "111.222.333-45", "contato":"(21) 99999-8888", "data_inicio": "10/07/2022", "peso":"105kg"}, 
+        {"id": 600, "nome": "Bernardo", "cpf": "222.333.444-56", "contato":"(21) 99999-7777", "data_inicio":"10/05/2020", "peso":"93.2kg"},
+        {"id": 700, "nome": "Ruan", "cpf": "333.444.555-67", "contato":"(21) 99999-6666", "data_inicio":"12/12/2021", "peso":"82kg"},
+        {"id": 800, "nome": "Vinícius", "cpf": "444.555.666-78", "contato":"(21) 99999-5555", "data_inicio": "19/12/2022", "peso": "80kg"}
+    ],
+    "aulas": [
+        {"id": 900, "aula": "jiu-jitsu", "dias_semana": "seg, ter, quar,qui, sex", "instrutor":"Matheus" },
+        {"id": 150, "aula":"yoga", "dias_semana":"sex, sab, dom", "instrutor":"Esther"},
+        {"id": 250, "aula":"pilates", "dias_semana": "seg, quar, sex, dom", "instrutor": "Vanessa"},
+        {"id": 350, "aula": "crossfit", "dias_semana":"ter, qui ,dom", "instrutor":"Guilherme"}
+    ]
+}
